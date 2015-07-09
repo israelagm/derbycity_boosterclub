@@ -1,4 +1,4 @@
-# derbycity_boosterclub
+# derbycityraiders
 Website for Derby City Raiders Booster Club
 
 
@@ -16,3 +16,4 @@ Version 2.0
 Version 3.0
 *Made tweaks to some sections (font color and sizes)
 *Added background images with parrallax effect
+*Updated ReadMe file with updates made
