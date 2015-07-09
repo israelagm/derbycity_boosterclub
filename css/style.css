@@ -59,6 +59,11 @@ h6 {
 	font-weight: 700;
 }
 
+.raiders {
+    display: block;
+    font-size: 80px;
+}
+
 h1 span,
 h2 span,
 h3 span,
@@ -71,7 +76,7 @@ h4 span {
 }
 
 a {
-	color: #bfbfbf;
+	color: #999;
 }
 
 a:hover {
@@ -119,6 +124,12 @@ img {
 
 .title {
 	margin-top: 0;
+}
+
+.footer.section h1, 
+p.large,
+.list-icons {
+    color: #ffffff;
 }
 
 
@@ -194,7 +205,7 @@ img {
 }
 
 .default-bg.blue {
-	background-color: #bfbfbf;
+	background-color: #999;
 }
 
 .translucent-bg {
@@ -268,7 +279,7 @@ img {
 }
 
 .bg-image-1 {
-	background: url("../imgs/raiders-image-1.jpg") 50% 0px no-repeat;
+	background: url("../imgs/raiders-image-1.jp") 50% 0px no-repeat;
 }
 
 .bg-image-2 {
@@ -681,7 +692,7 @@ textarea {
 }
 
 .social-links li a {
-	color: #333333;
+	color: #fff;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;

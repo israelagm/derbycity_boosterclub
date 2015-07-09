@@ -10,7 +10,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('imgs/raiders-banner-3.jpg');
+		$(".banner-image").backstretch('imgs/raiders-banner-3.jp');
 		
 		// Fixed header
 		//-----------------------------------------------
