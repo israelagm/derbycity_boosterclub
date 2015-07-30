@@ -16,7 +16,7 @@ body {
 	font-size: 15px;
 	line-height: 1.50;
 	color: #333333;
-	background-color: #ffffff;
+	background-color: #000;
 	position: relative;
 }
 
@@ -27,6 +27,12 @@ h4,
 h5,
 h6 {
 	color: #333333;
+}
+
+h1.events,
+h2.events,
+.events p {
+    color: #fff
 }
 
 h1 {
@@ -136,6 +142,30 @@ p.large,
 
 /* ---------- LAYOUT ---------- */
 
+
+.modal {
+    top:5%;
+    bottom:5%;
+} 
+
+.modal-content {
+    max-height: 100%;
+    height: 100%;
+}
+
+.modal-dialog {
+    max-height: 100%;
+    height: 90%;
+}
+
+.modal-footer {
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
 .header {
 	color: #ffffff;
 	background-color: rgba(0, 0, 0, 0.30);
@@ -178,9 +208,11 @@ p.large,
 	z-index: 2;
 }
 
-.section.footer {
+.section.footer,
+.section.events {
 	background-color: #000000;
 	border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #222;
 }
 
 .subfooter {
@@ -204,7 +236,7 @@ p.large,
 	color: #ffffff;
 }
 
-.default-bg.blue {
+.default-bg.grey {
 	background-color: #999;
 }
 
@@ -253,8 +285,8 @@ p.large,
 	position: relative;
 }
 
-.translucent-bg .translucent-bg {
-	margin-top: 80px;
+.translucent-bg {
+	margin-top: 0px;
 	z-index: 3;
 }
 
@@ -279,11 +311,11 @@ p.large,
 }
 
 .bg-image-1 {
-	background: url("../imgs/raiders-image-1.jp") 50% 0px no-repeat;
+	background: url("") 50% 0px no-repeat;
 }
 
 .bg-image-2 {
-	background: url("imgs/bg-image-2.jpg") 50% 0px no-repeat;
+	background: url("") 50% 0px no-repeat;
 }
 
 
@@ -422,7 +454,7 @@ p.large,
 
 .panel-heading a.collapsed {
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #999;
 }
 
 .panel-heading a:after {
@@ -506,7 +538,7 @@ textarea {
 }
 
 .modal-header {
-	background-color: #bfbfbf;
+	background-color: #111;
 	color: #ffffff;
 }
 
@@ -794,7 +826,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(85, 172, 238, 0.9);
+	background-color: rgba(153, 153, 153, 0.8);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
