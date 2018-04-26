@@ -155,7 +155,7 @@ p.large,
 
 .header {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 0.30);
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -224,24 +224,14 @@ p.large,
 
 /* ---------- BACKGROUNDS ---------- */
 .default-bg {
-	background-color: #222222;
-	color: #ffffff;
-}
-
-.default-bg.grey {
-	background-color: #999;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .translucent-bg {
 	color: #ffffff;
 }
 
-.default-bg h1,
-.default-bg h2,
-.default-bg h3,
-.default-bg h4,
-.default-bg h5,
-.default-bg h6,
 .translucent-bg h1,
 .translucent-bg h2,
 .translucent-bg h3,
@@ -659,11 +649,7 @@ textarea {
 }
 
 @media (max-width:991px) {
-	.fixed-header-on .logo,
-	.fixed-header-on .site-name,
-	.fixed-header-on .site-slogan {
-		display: none;
-	}
+
 }
 
 
@@ -684,7 +670,7 @@ textarea {
 }
 
 .site-name {
-	font-size: 1.9em;
+	font-size: 2.1em;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
