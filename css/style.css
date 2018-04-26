@@ -203,10 +203,11 @@ p.large,
 }
 
 .subfooter {
-	background-color: #fafafa;
+	background-color: #050505;
 	border-top: 1px solid #f3f3f3;
 	border-bottom: 1px solid #f3f3f3;
 	padding: 40px 0;
+	color: #f5f5f5;
 }
 
 .section {
