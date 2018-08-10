@@ -386,6 +386,26 @@ p.large,
 	border-color: #999;
 }
 
+#joinBtn {
+	display: block;
+	margin: 0 auto;
+	max-width: 250px;
+	text-align: center;
+	background: #fff;
+	color: #333;
+	text-decoration: none;
+	padding: 10px 0;
+	border-radius: 3px;
+	font-size: 28px;
+	font-weight: bold;
+	transition: all .2s ease-in;
+}
+
+#joinBtn:hover, #joinBtn:active, #joinBtn:focus {
+	color: #000;
+	transform: scale(1.1);
+}
+
 
 
 /* ---------- COLLAPSE---------- */
